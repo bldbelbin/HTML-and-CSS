@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Die Hard</title>
+		<link rel="stylesheet" href="css/styles.css" media="screen" />
+		<link href="https://fonts.googleapis.com/css?family=Six+Caps" rel="stylesheet">
+	</head>
+
+	<body>
+		<header>
+			<!-- opening comment -->
+			<p>Twelve terrorists. One cop.<br>
+				The odds are against John McClane...<br>
+				That's just the way he likes it.
+			</p>
+		</header>
+		<!-- background photo goes here -->
+		<!-- style css with white and bold-->
+		<div id="lead-actor">
+			<h2><strong>BRUCE WILLIS</strong></h2>
+		</div>
+
+		<!-- style css with red and increase size -->
+		<div id="title">
+			<h1>
+			<!-- remove underline for hyperlink off of die hard-->
+				<a href="https://www.rottentomatoes.com/m/die_hard/" rel="external" title="movie critics"><strong><strong>DIE HARD</strong></strong></a></h1>
+		</div>
+				<section>
+
+					<p>TWENTIETH CENTURY FOX <small><small>Presents</small></small> A GORDON COMPANY/SILVER PICTURES <small><small>Production</small></small> A JOHN McTIERNAN <small><small>Film</small></small> BRUCE WILLIS DIE HARD<p>
+					<p> ALAN RICKMAN ALEXANDER GODUNOV BONNIE BEDELIA <small><small>Music by</small></small> MICHAEL KAMEN <small><small>Visual Effects Produced by</small></small> RICHARD EDLUND <small><small>Film Editors</small></small> FRANK J. URIOSTE, <small><small>A.C.E.</small></small></p>
+					<p><small><small>and</small></small> JOHN F. LINK <small><small>Production Designer</small></small> JACKSON DeGOVIA <small><small>Directors of Photography</small></small> JAN DeBONT <small><small>Executive Producer</small></small> Charles Gordon <small><small>Screenplay By</small></small> JEB STUART <small><small>and</small></small> STEVEN E. de SOUZA
+					</p>
+				</section>
+
+				<div id="creditindent">
+		<!--indent added to credit in css -->
+					<p><small><small>Based on the novel by</small></small> RODERICK THORP <small><small>Produced by</small></small> LAWRENCE GORDON <small><small>and</small></small> JOEL SILVER <small><small>Directed By</small></small> JOHN McTIERNAN</p>
+				</div>
+
+		<!-- move to the side of credits-->
+		<aside>
+				<img src="images/dolby.jpg" alt="dolby icon"/>
+		</aside>
+
+		<div id="book">
+			<!-- remove underline from link -->
+			<a href="https://www.goodreads.com/book/show/16245510-nothing-lasts-forever" rel="external" title="book"><p><small>Read The Fawcett Paperback.</small></p></a>
+	  </div>
+<footer>
+	<!-- add css to id fox and float right of dolby -->
+	<div id="fox">
+		<img src="images/20thfox.jpg" alt="20th fox icon"/>
+	</div>
+
+	<div id="copyright">
+		<p><small><small>&copy; TWENTIETH CENTURY FOX CORPORATION</small></small></p>
+	</div>
+	<div id="panaicon">
+		<img src="images/panavision.jpg" alt="panavision icon"/>
+	</div>
+	<div id="panacopyright">
+		<p><small>Color by Deluxe</small></p>
+	</div>
+</footer>
+</body>
+
+</html>

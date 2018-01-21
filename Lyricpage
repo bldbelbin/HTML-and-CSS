@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<!--change background colour to black-->
+  <head>
+   <meta charset="utf-8" />
+   <title> BB's Lyrics: Let it Go by James Bay</title>
+ </head>
+  <body>
+		<!--move header to the centre of the page-->
+		<header>
+    	<h1>BB Lyrics</h1>
+			<section role="search">_____________<button role="button">Search</button></section>
+			<nav> ABOUT | ARTIST | SONG | GENRE</nav>
+		</header>
+		<!--move main section to the centre of the page-->
+		<!--change font colour in CSS to possibly white-->
+    <main role=main>
+			<article>
+				<h2><q>Let It Go</q></h2>
+				<h3>By James Bay</h3>
+				<p>From walking home and talking loads <br />
+					To Seeing shows in evening clothes with you <br />
+					From nervous touch and getting drink <br />
+					To staying up and waking up with you</p>
+
+				<p>But now we're slipping at the edge <br />
+						Holding something we don't need <br />
+						All this delusion in our heads <br />
+						Is gonna bring us to our knees</p>
+					<p>Chorus</p>
+				<p>So come on, let it go <br />
+						Just let it be <br/>
+						Why don't you be you <br/>
+						And I'll be me? <br/>
+						Everything that's broke <br />
+						Leave it to the breeze <br />
+						Why don't you be you <br />
+						And I'll be me? <br />
+						And I'll be me</p>
+
+				<p>From throwing clothes across the floor <br />
+						To teeth and claws and slamming doors at you <br />
+						If this is all we're living for <br />
+						Why are we doing it, doing it, doing it anymore?</p>
+
+				<p>I used to recognize myself <br />
+						It's funny how reflections change <br />
+						When we're becoming something else <br />
+						I think it's time to walk away</p>
+
+						<p>Chorus</p>
+					<p>So come on, let it go <br />
+							Just let it be <br />
+							Why don't you be you <br/>
+							And I'll be me? <br />
+							Everything that's broke <br />
+							Leave it to the breeze <br />
+							Why don't you be you <br />
+							And I'll be me? <br />
+							And I'll be me</p>
+
+					<p>Trying to fit your hand inside of mine <br />
+							When we know it just don't belong <br />
+							There's no force on earth <br />
+							Could make it feel right, no</p>
+
+					<p>Whoa</p>
+
+					<p>Trying to push this problem up the hill <br />
+							When it's just too heavy to hold <br />
+							Think now's the time to let it slide</p>
+
+						<p>Chorus</p>
+
+					<p>So come on, let it go <br />
+							Just let it be <br />
+							Why don't you be you <br />
+							And I'll be me? <br />
+							Everything that's broke <br />
+							Leave it to the breeze <br />
+							Let the ashes fall <br />
+							Forget about me</p>
+
+					<p>Come on, let it go <br />
+							Just let it go <br />
+							Why don't you be you <br />
+							And I'll be me? <br />
+							And I'll be me</p>
+			</article>
+
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/GsPq9mzFNGY" allowfullscreen></iframe>
+			<!--place aside section in a light grey box in the top right of the page-->
+			<aside>
+				<img role="img" src="James-Bay.jpg" alt="James Bay Chaos and Calm"/>
+				<h3>James Bay</h3>
+				<h4>Social Media</h4>
+				<div role="navigation">
+					<ul>
+						<li><a href="https://twitter.com/JamesBayMusic" title="James Bay Twitter">Twitter</a></li>
+						<li><a href="https://www.youtube.com/channel/UCFb_9tIgnxz1OPhxzipGIbA" title="James Bay on Youtube">Youtube</a></li>
+						<li><a href="http://www.jamesbay.com/"	title="James Bay Offical Site">Website</a></li>
+					</ul>
+				</div>
+				<blockquote cite="http://www.jamesbay.com/about/">
+				<time datetime="2016-09-26">September 26, 2016</time>
+				<p>Born in <em>Hitchin, United Kingdom</em>, british born James Bay is a 23 year old singer, songwriter.With the use of his lyrics, vocals and guitar playing James attempts to make his music personal "I’m trying to keep things human and emotional,” he explains. “It’s hard to know what the balance is, but you know it when you hear it. It’s such a personal process that it’s hard to share stuff sometimes."</p>
+				<p>James Bay's <em>"soul music"</em> is what helped him sell out on almost all his tours in North America and Europe. With songs such as "let it go"	and "Best Fake Smile" this <abbr title="British people">Brit</abbr> has no problem catching the attention of different demographics around the world.</p>
+			</blockquote>
+				<a href="https://www.amazon.ca/Chaos-Calm-James-Bay/dp/B00R3TMCQG/ref=sr_1_1?ie=UTF8&qid=1474914194&sr=8-1&keywords=James+Bay" title="James Bay Chaos and Calm CD"><strong>Buy</strong></a>
+			</aside>
+		</main>
+		<footer role="contentinfo">
+			<p><small>© 2016 JAMES BAY</small></p>
+			<p><small>© 2016 REPUBLIC RECORDS</small></p>
+			<nav>Contact Us | Private Policy | Song Request</nav>
+		</footer>
+  </body>
+</html>

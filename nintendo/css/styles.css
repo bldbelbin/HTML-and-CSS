@@ -1,0 +1,299 @@
+/* css style sheet for nintendo */
+/* Body, header, nav and main will stay the same for each page*/
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+}
+
+body {
+	background-image: url("../images/stars.jpg");
+	background-attachment: scroll;
+	width: 100%;
+	position: absolute;
+	font-family: impact;
+	margin: auto;
+}
+
+header {
+	position: relative;
+	width: 100%;
+	background-color: #c4c3c9;
+	margin: 0;
+}
+
+header img {
+	margin-left:35%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#page5 header img {
+	margin-left:33.58%;
+	margin-bottom: -5px;
+	margin-top: -5px;
+}
+
+
+nav {
+	border: 1px solid black;
+	border-bottom: none;
+	background-color: black;
+}
+
+nav ul {
+	min-width: 960px;
+	background-color: #666874;
+	list-style-type: none;
+	margin: 0;
+	padding-left: 17.95%;
+	overflow: hidden;
+
+}
+
+nav li{
+	float: left;
+}
+
+nav li a {
+	position: relative;
+	display: block;
+	font-weight: bold;
+	font-family:sans-serif;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	padding: 14px 59.79px;
+}
+
+nav li a:hover{
+	background-color: white;
+}
+
+	#current{
+		background-color: white;
+	}
+
+/* Styles for page 1 */
+#page1 main {
+	background-color: white;
+	min-width: 920px;
+	position: relative;
+	margin-left: 18%;
+	margin-right: 18%;
+	margin-top: -59px;
+	margin-bottom: auto;
+}
+
+#page1 section img{
+	margin-top: 0;
+	padding: 20px;
+}
+
+#content h1 {
+	font-size: 70px;
+	color: #ee0d1a;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 30px;
+}
+
+#content h2 {
+	color: black;
+	float: left;
+	text-align: center;
+	font-size: 40px;
+	position: relative;
+	margin-top: 40px;
+	margin-right:40%;
+	margin-left: 30px;
+}
+
+/* Styles for page 2 */
+
+#page2 #content h1 {
+	font-size: 50px;
+	padding-top: 60px;
+}
+
+#page2 #content h2 {
+	float: none;
+	text-align: center;
+	position: relative;
+	margin-top: 30%;
+	margin-left: 0;
+	padding-top: 50px;
+	padding-left: 50px;
+}
+
+#page2 #content ul {
+	background-color: white;
+	font-family: sans-serif;
+	display: block;
+	margin: 10px;
+	margin-bottom: auto;
+	padding-bottom: 30px;
+	padding-left: 35%;
+}
+
+#page2 #content li {
+	list-style-type: disc;
+}
+
+#page2 #info{
+	font-family:sans-serif;
+	font-size: 20px;
+	margin-right: 50%;
+	float: left;
+	padding-left: 30px;
+}
+
+#page2 main {
+	background-color: white;
+	min-width: 920px;
+	position: relative;
+	margin-left: 18%;
+	margin-right: 18%;
+	margin-top: -42px;
+	margin-bottom: auto;
+}
+
+#page2 aside {
+	position: relative;
+	margin-top: -625px;
+
+}
+
+/* Styles for page 3 */
+#page3 main {
+	background-color: white;
+	min-width: 920px;
+	position: relative;
+	margin-left: 18%;
+	margin-right: 18%;
+	margin-top: -58px;
+	margin-bottom: auto;
+	height: 1400px;
+}
+
+#page3 #s1 h2 {
+	padding-top: 0;
+}
+
+#page3 h2 {
+	margin-left: 390px;
+	margin-top: 0;
+	padding-top: 60px;
+}
+
+/* Images in the main content */
+#page3 section li {
+	max-width: 920px;
+	float: left;
+	list-style-type: none;
+	margin 0;
+	padding-left: 38px;
+	padding-bottom: 20px;
+}
+
+#page3 section #s1 li img {
+	display: inline-block;
+}
+
+/* Styles for page 4 */
+#page4 main {
+	background-color: white;
+	min-width: 920px;
+	position: relative;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-left: 18%;
+	margin-right: 18%;
+	margin-top: 0;
+	margin-bottom: auto;
+}
+
+/* Styles for Frequently Asked Questions*/
+#page4 h1 {
+	font-size: 40px;
+	color: #ee0d1a;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 0;
+}
+
+#page4 #faqcontainer {
+	border-style: solid;
+	border-top-style: none;
+	margin-right: 20px;
+	margin-bottom: 40px;
+	margin-left: 20px;
+	padding-left: 10px;
+}
+
+#page4 .question {
+	font-family:Arial, sans-serif;
+	color: black;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+#page4 .answer {
+	color: #ee0d1a;
+	font-family: arial, sans-serif;
+}
+
+/* Styles for form */
+#page4 fieldset {
+	margin-left: 22%;
+	margin-right: 30%;
+}
+
+#page4 .contact {
+	text-align: center;
+	font-family: sans-serif;
+}
+/* Styles for page 5 */
+#page5 main {
+		background-color: white;
+		min-width: 920px;
+		position: relative;
+		margin-left: 18%;
+		margin-right: 18%;
+		margin-top: -47px;
+		margin-bottom: auto;
+	}
+
+	#page5 img {
+		padding: 20px;
+		padding-bottom: 20px;
+		margin-left: 50px;
+	}
+
+
+aside {
+	font-family: impact;
+	float: right;
+	color: #1f1a8e;
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+	margin-top: -500px;
+	font-size: 40px;
+	font-weight: bold;
+	margin-left: 70%;
+	margin-right: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/* Footer style used for all pages */
+footer p {
+	min-width: 960px;
+	color: white;
+	font-family: sans-serif;
+	font-size: 20px;
+	text-align: right;
+	margin-right: 20%
+
+}

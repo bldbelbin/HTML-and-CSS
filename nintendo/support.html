@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title>nesnintendo</title>
+		<!-- Photo credit: http://images.nintendolife.com/news/2013/12/weirdness_donkey_kong_and_other_nes_classics_can_now_be_played_on_your_wedding_cake/large.jpg -->
+		<link rel="shortcut icon" href="images/donkeykong.png" />
+		<link rel="stylesheet" href="css/styles.css" />
+	</head>
+	<body id="page4">
+		<!-- Photo from http://vignette3.wikia.nocookie.net/nintendo/images/5/5c/NintendoLogo2.png/revision/latest?cb=20111125152418&path-prefix=en -->
+		<header><img src="images/nintendologo.png" alt="nintendo logo"/>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a>
+					<li><a href="about.html">About</a>
+					<li><a href="product.html">Products</a>
+					<li><a id="current" href="support.html">Support</a>
+				  <li><a href="buy.html">Where to Buy</a>
+				</ul>
+			</nav>
+		</header>
+		<main id="content">
+			<h1>Frequently Asked Questions</h1>
+			<div id="faqcontainer">
+				<p class="question">Does a warrantly come with the NES?<p>
+				<p class="answer">Yes, the Nintendo system does come with a 2 year warranty on parts</p>
+				<p class="question">Do all games allow for two players?</p>
+				<p class="answer">No, all games do not allow for two players. Although there is built in memory in the game cartridge to allow for several people to play seperately.</p>
+				<p class="question">Will there be a big selection of games?</p>
+				<p class="answer">Right now we are working on releasing 20 new games. The release date will be posted soon.</p>
+			</div>
+
+			<!-- No php form to support -->
+			<p class="contact"> If your question has not been answered please feel free to send us an email below</p>
+			<form action="action.php" method="post">
+				<fieldset>
+					<legend>Contact Us</legend>
+						<p>First Name</p>
+							<input type="text" name="firstname" maxlength="20" required="required">
+						<p>Last Name</p>
+							<input type="text" name="lastname" maxlength="20" required="required">
+						<p>Email</p>
+							<input type="text" name="email" required="required">
+						<p>Confirm Email</p>
+							<input type="text" name="email" required="required">
+						<p>Describe Your Question or Issue</p>
+							<textarea name="question" rows="10" cols="80" required="required"></textarea><br>
+							<input type="submit" value="Submit">
+							<input type="reset" value="Reset">
+				</fieldset>
+			</form>
+		</main>
+		<footer>
+			<p><small>&copy; 1985 Nintendo</small><p>
+		</footer>
+	</body>
+</html>
